@@ -132,5 +132,5 @@ liczbę dokumentów kontekstowych
 źródła
 
 🧑‍💻 Autor
-Projekt przygotowany przez Małgorzatę  
+Projekt przygotowany przez Dominika  
 Repozytorium: https://github.com/Domis123-cpu/ai-knowledge-assistant
