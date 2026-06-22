@@ -165,6 +165,20 @@ liczbę dokumentów kontekstowych
 
 źródła
 
+1️⃣ Przejdź do folderu frontend
+
+cd ai-knowledge-assistant/frontend
+2️⃣ Zainstaluj zależności
+
+npm install
+3️⃣ Uruchom aplikację
+
+npm start
+Frontend uruchomi się pod adresem:
+
+Kod
+http://localhost:3000
+
 🧑‍💻 Autor
 Projekt przygotowany przez Dominika  
 Repozytorium: https://github.com/Domis123-cpu/ai-knowledge-assistant
