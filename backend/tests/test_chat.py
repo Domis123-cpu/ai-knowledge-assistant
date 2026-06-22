@@ -1,0 +1,3 @@
+def test_chat_empty_query(client):
+    # tu możesz dodać walidację, np. query nie może być puste
+    ...
