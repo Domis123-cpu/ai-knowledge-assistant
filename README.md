@@ -42,8 +42,6 @@ Konfiguracja	Pydantic Settings
 Język	Python 3.10+
 
 
-📦 Struktura projektu
-Kod
 ai-knowledge-assistant/
 │
 ├── backend/
@@ -53,20 +51,56 @@ ai-knowledge-assistant/
 │   │   │       ├── routes_chat.py
 │   │   │       ├── routes_documents.py
 │   │   │       └── routes_health.py
+│   │   │
 │   │   ├── rag/
 │   │   │   ├── chat_chain.py
 │   │   │   ├── document_loader.py
 │   │   │   ├── embeddings.py
 │   │   │   └── vector_store.py
+│   │   │
 │   │   ├── core/
-│   │   │   └── config.py
-│   │   └── main.py
+│   │   │   ├── config.py
+│   │   │   └── logging_config.py   ← jeśli masz
+│   │   │
+│   │   ├── models/                 ← jeśli masz modele Pydantic
+│   │   │   ├── chat.py
+│   │   │   └── documents.py
+│   │   │
+│   │   ├── utils/                  ← jeśli masz utils
+│   │   │   └── file_utils.py
+│   │   │
+│   │   ├── main.py
+│   │   └── __init__.py
+│   │
 │   ├── data/
-│   │   └── chroma/        ← automatycznie generowane
+│   │   ├── chroma/                 ← automatycznie generowane
+│   │   └── uploads/                ← zapisane dokumenty
+│   │
+│   ├── tests/                      ← jeśli masz testy
+│   │   └── test_api.py
+│   │
 │   ├── .env.example
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── README.md
 │
-└── README.md
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── ChatWindow.jsx
+    │   │   ├── FileUpload.jsx
+    │   │   └── MessageBubble.jsx
+    │   │
+    │   ├── api/
+    │   │   └── client.js
+    │   │
+    │   ├── App.js
+    │   ├── index.js
+    │   └── styles.css
+    │
+    ├── package.json
+    └── README.md
+
 🔧 Instalacja i uruchomienie
 1️⃣ Sklonuj repozytorium
 bash
