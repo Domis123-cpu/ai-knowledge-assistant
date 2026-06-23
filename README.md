@@ -161,6 +161,8 @@ Frontend uruchomi się pod adresem:
 Kod
 http://localhost:3000
 
+Zrobione testy github workflows
+
 🧑‍💻 Autor
 Projekt przygotowany przez Dominika  
 Repozytorium: https://github.com/Domis123-cpu/ai-knowledge-assistant
