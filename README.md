@@ -161,3 +161,20 @@ http://localhost:3000
 🧑‍💻 Autor
 Projekt przygotowany przez Dominika  
 Repozytorium: https://github.com/Domis123-cpu/ai-knowledge-assistant
+
+
+
+
+
+
+## Dlaczego ten projekt jest wartościowy?
+
+- pokazuje praktyczną implementację RAG (Retrieval-Augmented Generation)
+- integruje FastAPI, LangChain, ChromaDB i OpenAI — stos technologiczny używany w realnych firmach
+- posiada modularną architekturę backendu (API / RAG / embeddings / vector store)
+- obsługuje realne dokumenty (PDF, DOCX)
+- implementuje pełny pipeline: upload → chunking → embeddings → wektorowy store → retrieval → odpowiedź
+- jest gotowy do rozbudowy o kolejne modele i funkcje
+- zawiera testy automatyczne (pytest + httpx)
+- jest idealny jako projekt portfolio dla backend/AI engineer
+
