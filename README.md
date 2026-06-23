@@ -181,5 +181,5 @@ Repozytorium: https://github.com/Domis123-cpu/ai-knowledge-assistant
 - implementuje pełny pipeline: upload → chunking → embeddings → wektorowy store → retrieval → odpowiedź
 - jest gotowy do rozbudowy o kolejne modele i funkcje
 - zawiera testy automatyczne (pytest + httpx)
-- jest idealny jako projekt portfolio dla backend/AI engineer
+
 
