@@ -41,8 +41,8 @@ LLM	OpenAI GPT‑4o‑mini
 Konfiguracja	Pydantic Settings
 Język	Python 3.10+
 
-
-                ┌──────────────────────┐
+```
+      ┌──────────────────────┐
                 │      Frontend        │
                 │      React.js        │
                 └──────────┬───────────┘
@@ -78,6 +78,9 @@ Język	Python 3.10+
               │   Final Answer       │
               │ + Sources + Context  │
               └──────────────────────┘
+```
+
+          
 
 
 🔧 Instalacja i uruchomienie
