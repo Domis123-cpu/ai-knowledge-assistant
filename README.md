@@ -42,7 +42,7 @@ Konfiguracja	Pydantic Settings
 Język	Python 3.10+
 
 ```
-      ┌──────────────────────┐
+                ┌──────────────────────┐
                 │      Frontend        │
                 │      React.js        │
                 └──────────┬───────────┘
